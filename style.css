@@ -1,0 +1,74 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: fit-content;
+
+}
+#profile-pic{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.logos{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+form {
+    width: 92%;
+    padding: 12px;
+    margin: 5% auto;
+    border-radius: 3px;
+}
+#personal-details{
+    padding:15px;
+    text-align: center;
+    font-size:18pt;
+    height:50%;
+    width:50%;
+    align-items: center;
+    margin: auto;
+}
+.header a{
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+.nab-bar a.hover{
+    background: #ffffff;
+
+}
+.nav-bar{
+    background: #1f507e;
+    width: 100%;
+    font-weight: bold;
+
+}
+.nav-bar a{
+    display: inline-block;
+    margin:0.5%;
+    color:white;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+form input {
+    width: 96%;
+    margin: 0.3%;
+    padding: 15px;
+    font-size: 14pt;
+}
+form button {
+    background: #1876f3;
+    font-size: 16px;
+    text-shadow: #ddd;
+    color: white;
+    padding: 5px 9px;
+    margin:16px 7px;
+}
+form h1, p {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    font-size: 17pt;
+}
